@@ -1,0 +1,249 @@
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+}
+:root {
+  --primary-font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  --primary-font-size: 12px;
+  --primary-font-weight: 400;
+  --primary-color: rgb(0, 0, 0);
+  --sections-background-color: #f5f5f7;
+  --bubbles-paragraph-color: #ffffff;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* header :- navbar-section */
+.navbar {
+  justify-content: center;
+  gap: 33px;
+}
+.navbar-list {
+  list-style: none;
+  gap: 41px;
+}
+.navbar-list li {
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+  font-family: var(--primary-font-family);
+  color: #3f3f3f;
+  cursor: pointer;
+}
+.nav-toggle {
+  display: none;
+}
+
+/* header :- buy-link section */
+.buy-link {
+  justify-content: center;
+  gap: 3px;
+  padding-block: 12px;
+  flex-wrap: wrap;
+}
+.buy-link p,
+a,
+i {
+  font-size: 14px;
+  font-weight: var(--primary-font-weight);
+  font-family: var(--primary-font-family);
+}
+.buy-link a,
+i {
+  color: #98bef2;
+}
+.buy-link a {
+  text-decoration: none;
+}
+.buy-link p {
+  color: #1d1d1f;
+}
+
+/* ipad - section */
+.store-section {
+  background-color: var(--sections-background-color);
+  cursor: pointer;
+  padding-inline: 5rem;
+  height: 72vh;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+.store-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 52vh;
+}
+.ipad-university {
+  width: 346px;
+  position: relative;
+}
+.bubble-svg-1 {
+  fill: #007afe;
+  transform: rotate(-5deg);
+}
+.bubble-para-1 {
+  font-size: 112px;
+  max-width: 80%;
+  color: var(--bubbles-paragraph-color);
+  font-family: var(--primary-font-family);
+  line-height: 1;
+}
+.ipad-section-heart {
+  height: 95px;
+  position: absolute;
+  left: -60px;
+  top: -25px;
+}
+.ipad-section-mac {
+  height: 153px;
+  position: absolute;
+  top: -37px;
+  right: -22px;
+}
+.ipad-section-ipads {
+  height: 184px;
+  position: absolute;
+  bottom: -153px;
+  left: -90px;
+}
+.bubble-para-2 {
+  font-size: 35px;
+  font-weight: var(--primary-font-weight);
+  padding: 10px;
+  font-family: var(--primary-font-family);
+  color: var(--bubbles-paragraph-color);
+}
+.bubble-svg-2 {
+  transform: rotate(-2deg);
+  fill: #007afe;
+  position: relative;
+  z-index: 10;
+}
+.bubble-2 {
+  width: 264px;
+  height: 42px;
+  position: absolute;
+  bottom: -32px;
+  right: -20px;
+  stroke: #f5f5ed;
+  stroke-width: 2;
+}
+.bubble-para-3 {
+  font-size: 80px;
+  line-height: 0.9;
+  font-family: var(--primary-font-family);
+  color: var(--bubbles-paragraph-color);
+  padding: 10px;
+}
+.bubble-svg-3 {
+  fill: #007afe;
+  transform: rotate(5deg);
+  position: relative;
+  z-index: 10;
+}
+.bubble-3 {
+  position: absolute;
+  top: 45px;
+  left: 35px;
+  width: 315px;
+  height: 120px;
+  stroke: #f5f5ed;
+  stroke-width: 2;
+}
+.star {
+  color: var(--bubbles-paragraph-color);
+  font-size: 3.5rem;
+}
+.ipad-section-airpods {
+  height: 90px;
+  position: absolute;
+  right: 15px;
+  bottom: -33px;
+  z-index: 20;
+}
+.bubble-para-4 {
+  font-size: 4rem;
+  line-height: 0.9;
+  font-family: var(--primary-font-family);
+  color: var(--bubbles-paragraph-color);
+  padding: 10px;
+}
+.bubble-svg-4 {
+  fill: #007afe;
+  position: relative;
+  transform: rotate(10deg);
+}
+.bubble-4 {
+  position: absolute;
+  width: 315px;
+  height: 120px;
+  left: -85px;
+  bottom: -107px;
+}
+.ipad-section-pencil {
+  height: 87px;
+  position: absolute;
+  top: 29px;
+  right: 30px;
+}
+.bubble-5 {
+  width: 248px;
+  height: 41px;
+  position: absolute;
+  bottom: -33px;
+  right: 40px;
+}
+.bubble-svg-5 {
+  fill: #e1dfe4;
+}
+.bubble-para-5 {
+  color: #1d1d1f;
+  font-size: 36px;
+  font-family: var(--primary-font-family);
+  padding-block: 5px;
+  font-weight: 500;
+}
+.ipad-section-exclamation {
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  right: 0px;
+}
+.store-shop-btn {
+  font-size: 17px;
+  color: #0177ed;
+  padding-inline: 21px;
+  padding-block: 11px;
+  text-decoration: none;
+  border: 1px solid #0177ed;
+  border-radius: 980px;
+  font-weight: 400;
+  font-family: var(--primary-font-family);
+  position: absolute;
+  top: 65px;
+}
+.store-shop-btn:hover {
+  background-color: #0177ed;
+  color: var(--bubbles-paragraph-color);
+}
+.shop-btn-container {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  border: 1px solid red;
+}
