@@ -18,7 +18,6 @@
 
 /* for tablet's - 980px */
 @media screen and (max-width: 980px) {
-  /* store-section */
 }
 
 /* for medium devices - 767px */
@@ -31,86 +30,36 @@
     padding-block: 10px;
     padding-inline: 1rem;
   }
-  /* store-section */
-  .bubble-1 {
-    height: 136px;
-    width: 247px;
+  /* macbooks-section */
+  .macbooks{
+    display: flex;
+    justify-content: center;
   }
-  .bubble-2 {
-    width: 192px;
-    height: 30px;
-    bottom: -20px;
+  .macbook-section-img{
+    width: 70%;
   }
-  .bubble-svg-2 {
-    position: relative;
-    z-index: 15;
+  .macbook-header{
+    padding-top:37px;
   }
-  .bubble-3 {
-    width: 224px;
-    height: 85px;
-    top: 32px;
+  .macbook-header h2{
+    font-size: 32px;
   }
-  .bubble-4 {
-    width: 209px;
-    height: 80px;
-    bottom: -72px;
-    left: -60px;
+  .macbook-header p{
+    font-size: 19px;
+    margin-top: 4px;
   }
-  .bubble-5 {
-    width: 180px;
-    height: 30px;
-    bottom: -30px;
-    right: 25px;
+  .macbook-header-btns{
+    margin-top: 17px;
   }
-  .ipad-section-heart {
-    height: 68px;
-    top: -15px;
-    left: -45px;
+  .cta-btns{
+    padding: 7px 11px;
+    font-size: 14px;
   }
-  .ipad-section-ipads {
-    height: 125px;
-    left: -50px;
-    bottom: -105px;
+  .macbook-section{
+    height: 60vh;
   }
-  .ipad-section-mac {
-    height: 106px;
-  }
-  .ipad-section-airpods {
-    height: 68px;
-  }
-  .ipad-section-pencil {
-    height: 66px;
-    top: 15px;
-    right: 15px;
-  }
-  .ipad-section-exclamation {
-    height: 19px;
-    top: -10px;
-    right: 5px;
-  }
-  .store-shop-btn {
-    padding-inline: 15px;
-    padding-block: 7px;
-    left: 47px;
-    top: 48px;
-  }
-  .bubble-para-1 {
-    font-size: 112px;
-  }
-  .bubble-para-2 {
-    font-size: 35px;
-  }
-  .bubble-para-3 {
-    font-size: 80px;
-  }
-  .bubble-para-4 {
-    font-size: 64px;
-  }
-  .bubble-para-5 {
-    font-size: 36px;
-  }
-  .store-section {
-    height:500px;
+  .macbooks{
+    margin-top:1rem;
   }
 }
 
@@ -129,31 +78,23 @@
     padding-block: 10px;
     padding-inline: 1rem;
   }
-  /* store-section */
-  .store-section{
-    width: 100vw;
-    border: 2px solid red;
+  /* macbooks-section */
+  .macbook-header{
+    padding-top: 15px;
   }
-  .store-container{
-    border: 2px solid red;
-    min-width:100vw;
-    overflow: hidden;
-    height: 56vh;
+  .macbook-header p{
+    font-weight:400;
   }
 }
 
 /* for large laptop's - 1440px */
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-  /* store-section */
-  .store-section {
-    height: 90vh;
-  }
-  .store-container {
-    height: 74vh;
-  }
+@media screen and (max-width: 1440px) {
+
+
 }
 
 @media screen and (min-width: 1440px) {
+
 }
 
 /* for extra large screens - 2550px */
