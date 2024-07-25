@@ -14,6 +14,58 @@
   .logo {
     margin-right: auto;
   }
+  /* features-section */
+  .feature-office h3{
+    font-size: 32px;
+    margin-top: 42px;
+
+  }
+  .feature-aipc h3{
+font-size: 32px;
+margin-top: 42px;
+max-width: 250px;
+  }
+  .feature-intelligance h3{
+font-size: 32px;
+margin-top: 42px;
+  }
+  .feature-ipad h3{
+    font-size: 32px;
+    margin-top: 42px;
+  }
+  .feature-watch img{
+    height: 42px;
+    margin-top: 47px;
+  }
+  .feature-tradein h4{
+    font-size: 32px;
+    margin-top: 46px;
+  }
+  .feature-office p{
+    font-size: 19px;
+    margin-top: 4px;
+
+  }
+  .feature-watch p{
+    font-size: 19px;
+    margin-top: 9px;
+  }
+  .feature-intelligance .first-para{
+font-size:19px;
+margin-top: 4px;
+  }
+  .feature-intelligance .second-para{
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .feature-ipad p{
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .feature-tradein p{
+font-size: 19px;
+margin-top: 9px;
+  }
 }
 
 /* for tablet's - 980px */
@@ -31,74 +83,135 @@
     padding-inline: 1rem;
   }
   /* macbooks-section */
-  .macbooks{
+  .macbooks {
     display: flex;
     justify-content: center;
   }
-  .macbook-section-img{
+  .macbook-section-img {
     width: 70%;
   }
-  .macbook-header{
-    padding-top:37px;
+  .macbook-header {
+    padding-top: 37px;
   }
-  .macbook-header h2{
+  .macbook-header h2 {
     font-size: 32px;
   }
-  .macbook-header p{
+  .macbook-header p {
     font-size: 19px;
     margin-top: 4px;
   }
-  .macbook-header-btns{
+  .macbook-header-btns {
     margin-top: 17px;
   }
-  .cta-btns{
+  .cta-btns {
     padding: 7px 11px;
     font-size: 14px;
   }
-  .macbook-section{
+  .macbook-section {
     height: 60vh;
   }
-  .macbooks{
-    margin-top:1rem;
+  .macbooks {
+    margin-top: 1rem;
   }
-}
-
-/* for small devices - 479px */
-@media screen and (max-width: 479px) {
-  /* navbar-section */
-  .navbar {
-    padding-inline: 0.5rem;
+  /* iphone-section */
+  .iphone-header-h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--primary-font-family);
+    text-align: center;
+  }
+  .iphone-header-p {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: var(--primary-font-family);
+    text-align: center;
+    margin-top: 4px;
+  }
+  .iphone-header-btns {
+    margin-top: 17px;
+  }
+  .iphone-cta-btns {
+    padding: 7px 11px;
+  }
+  .iphone-section {
+    height: 500px;
+  }
+  .iphone {
+    height: 80%;
+    display: flex;
     align-items: center;
-    gap: 30px;
   }
-  /* buy-link section */
-  .buy-link {
-    gap: 0;
-    line-height: 1.5;
-    padding-block: 10px;
-    padding-inline: 1rem;
+  .iphone-section-container {
+    gap: 0rem;
   }
-  /* macbooks-section */
-  .macbook-header{
-    padding-top: 15px;
+  .iphone-section-img {
+    transform: rotate(90deg);
+    height: 75px;
   }
-  .macbook-header p{
-    font-weight:400;
+  /* features-section */
+  .features-section-container{
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+    columns: 12px;
+  }
+  .features-section{
+    padding: 0;
+  }
+  .features-section{
+    margin-top: 12px;
+  }
+
+  /* for small devices - 479px */
+  @media screen and (max-width: 479px) {
+    /* navbar-section */
+    .navbar {
+      padding-inline: 0.5rem;
+      align-items: center;
+      gap: 30px;
+    }
+    /* buy-link section */
+    .buy-link {
+      gap: 0;
+      line-height: 1.5;
+      padding-block: 10px;
+      padding-inline: 1rem;
+    }
+    /* macbooks-section */
+    .macbook-header {
+      padding-top: 33px;
+    }
+    .macbook-header p {
+      font-weight: 400;
+    }
+    /* iphone-section */
+    .iphone-header{
+      padding-top: 37px;
+    }
+    /* features-section */
+    .feature-2{
+      background-position: center;
+      background-size: 270% 95%;
+    }
+    .feature-intelligance .second-para{
+      text-align: center;
+    }
+  }
+
+  /* for large laptop's - 1440px */
+  @media screen and (max-width: 1440px) {
+  }
+
+  @media screen and (min-width: 1440px) {
+  }
+
+  /* for extra large screens - 2550px */
+  @media screen and (min-width: 2560px) {
+  }
+
+  /* Specific media queries for specific sizes */
+  @media screen and (min-width:770px) and (max-width:1200px){
+    .iphone-section{
+      background-color: white;
+    }
   }
 }
-
-/* for large laptop's - 1440px */
-@media screen and (max-width: 1440px) {
-
-
-}
-
-@media screen and (min-width: 1440px) {
-
-}
-
-/* for extra large screens - 2550px */
-@media screen and (min-width: 2560px) {
-}
-
-/* Specific media queries for specific sizes */

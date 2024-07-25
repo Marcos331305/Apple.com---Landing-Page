@@ -87,7 +87,6 @@ i {
   font-weight: 500;
   line-height: 1.07;
   font-family: var(--primary-font-family);
-  margin-top: 6px;
   text-align: center;
 }
 .macbook-header p{
@@ -134,6 +133,325 @@ i {
 .macbooks{
   margin-top: 2rem;
 }
+
+/* iphone-section */
+.iphone-section{
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  height: 69.2vh;
+}
+.iphone-header-h2 , .iphone-header-p{
+  color: #F5F5F7;
+}
+.iphone-section-container{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:5rem;
+}
+.iphone-header-h2{
+  font-size: 56px;
+  font-weight: 500;
+  font-family: var(--primary-font-family);
+  text-align: center;
+}
+.iphone-header-p{
+  font-size: 28px;
+  font-weight: 400;
+  font-family: var(--primary-font-family);
+  text-align: center;
+  margin-top: 6px;
+}
+.iphone-header{
+  padding-top: 55px;
+}
+.iphone-section-img{
+  height:25vh;
+}
+
+/* features-section */
+.features-section{
+  padding:12px 0 12px 12px;
+}
+.features-section-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:repeat(3,1fr);
+  row-gap: 12px;
+  column-gap: 12px;
+}
+.feature{
+  width:100%;
+  height:65vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.feature-1{
+  background-image:url('./assets/feature-1.jpg');
+}
+.feature-2{
+  background-image: url('./assets/feature-2.jpg');
+}
+.feature-3{
+  background-image: url('./assets/feature-3.jpg');
+}
+.feature-4{
+  background-image: url('./assets/feature-4.jpg');
+}
+.feature-5{
+  background-image: url('./assets/feature-5.jpg');
+}
+.feature-6{
+  background-image: url('./assets/feature-6.jpg');
+}
+/* feature-office */
+.feature-office{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-office h3{
+  font-family: var(--primary-font-family);
+  font-size: 40px;
+  margin-top: 53px;
+  color: #F5F5F7;
+  font-weight: 500;
+}
+.feature-office p{
+  font-size: 21px;
+  font-weight: 400;
+  color: #f5f5f7;
+  margin-top: 4px;
+  font-family: var(--primary-font-family);
+}
+.office-cta-links{
+  margin-top: 17px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.office-cta-links-btns{
+  padding: 7px 15px;
+  border: 1px solid #f5f5f7;
+  border-radius: 980px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+.office-learnmore-btn{
+  color: #000000;
+  background-color: #F5F5F7;
+}
+.office-watch-film-btn{
+  color: #F5F5F7;
+}
+/* Ai-pc feature */
+.feature-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-aipc h3{
+  margin-top: 53px;
+  font-family: var(--primary-font-family);
+  font-size: 40px;
+  font-weight: 500;
+  max-width: 315px;
+  text-align: center;
+}
+.aipc-cta-link{
+  margin-top: 17px;
+  text-align: center;
+}
+.aipc-cta-btn{
+  text-decoration: none;
+  color: #F5F5F7;
+  background-color: #0171E2;
+  padding: 7px 15px;
+  border-radius: 980px;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* feature-watch */
+.feature-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-watch-img{
+  height: 53px;
+  margin-top: 59px;
+}
+.watch-cta-links{
+  text-align: center;
+  display: flex;
+  gap: 14px;
+  margin-top: 17px;
+}
+.watch-cta-btns{
+  padding: 7px 15px;
+  border: 1px solid #f5f5f7;
+  border-radius: 980px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+.watch-learnmore-btn{
+  color: #f5f5f7;
+  background-color: #0171E2;
+  border: none;
+  font-size: 14px;
+}
+.watch-buy-btn{
+  background-color: #000000;
+  color: #0171E2;
+  border: 1px solid #0171E2;
+}
+.feature-watch p{
+  font-size: 21px;
+  font-weight: 400;
+  color: #f5f5f7;
+  margin-top: 9px;
+  font-family: var(--primary-font-family);
+}
+.feature-watch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* feature-intelligance */
+.feature-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-intelligance h3{
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 59px;
+}
+.feature-intelligance .first-para{
+  margin-top: 3px;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  text-align: center;
+  font-size: 21px;
+}
+.feature-intelligance .second-para{
+  font-size: 17px;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  margin-top: 12px;
+  color: #6E6E73;
+}
+.intelligance-cta-links{
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+.intelligance-cta-btns{
+  padding: 7px 15px;
+  text-decoration: none;
+  border-radius: 980px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.intelligance-learnmore-btn{
+background-color: #0171E2;
+color: #F5F5F7;
+}
+.intelligance-watchfilm-btn{
+border: 1px solid #0171E2;
+color: #0171E2;
+background-color: #F5F5F7;
+}
+/* feature-ipad */
+.feature-5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-ipad h3{
+margin-top: 58px;
+text-align: center;
+font-family: var(--primary-font-family);
+font-size: 40px;
+font-weight: 500;
+}
+.feature-ipad p{
+margin-top: 10px;
+text-align: center;
+font-size: 21px;
+font-weight: 400;
+font-family: var(--primary-font-family);
+color: #1D1D1F;
+}
+.ipad-cta-links{
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 17px;
+}
+.ipad-cta-btns{
+  padding: 7px 15px;
+  text-decoration: none;
+  border-radius: 980px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.ipad-learnmore-btn{
+  background-color: #000000;
+  color: #f5f5f7;
+}
+.ipad-buy-btn{
+  border: 1px solid #000000;
+  color: #000000;
+}
+/* feature-tradein */
+.feature-6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-tradein h4{
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  font-family: var(--primary-font-family);
+  margin-top: 58px;
+}
+.feature-tradein p{
+font-size: 21px;
+font-weight: 400;
+color: #1d1d1f;
+font-family: var(--primary-font-family);
+margin-top: 10px;
+}
+.tradein-cta-links{
+display: flex;
+gap: 14px;
+justify-content: center;
+margin-top: 17px;
+}
+.tradein-get-btn{
+border-radius: 980px;
+color: #F5F5F7;
+background-color: #0171E2;
+font-size: 14px;
+font-weight: 400;
+padding: 7px 15px;
+text-decoration: none;
+}
+
+
 
 
 
