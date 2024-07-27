@@ -92,49 +92,7 @@
   }
 
   /* for small devices - 479px */
-  @media screen and (max-width: 479px) {
-    /* navbar-section */
-    .navbar {
-      padding-inline: 0.5rem;
-      align-items: center;
-      gap: 30px;
-    }
-    /* buy-link section */
-    .buy-link {
-      gap: 0;
-      line-height: 1.5;
-      padding-block: 10px;
-      padding-inline: 1rem;
-    }
-    /* macbooks-section */
-    .macbook-header {
-      padding-top: 33px;
-    }
-    .macbook-header p {
-      font-weight: 400;
-    }
-    /* iphone-section */
-    .iphone-header{
-      padding-top: 37px;
-    }
-    /* features-section */
-    .feature-2{
-      background-position: center;
-      background-size: 270% 95%;
-    }
-    .feature-intelligance .second-para{
-      text-align: center;
-    }
-    /* slide-show section*/
-    .slide-images{
-      aspect-ratio: 16/9;
-      border-radius: 0;
-    }
-    .slide-show-section{
-      padding-inline: 0;
-      padding-block:12px;
-    }
-  }
+ 
 
   /* for large laptop's - 1440px */
   @media screen and (max-width: 1440px) {
@@ -178,7 +136,7 @@
   }
   .navbar {
     justify-content: flex-end;
-    padding-inline: 1rem;
+    padding-inline: 0.7rem;
   }
   .logo {
     margin-right: auto;
@@ -239,6 +197,29 @@ margin-top: 9px;
   .footer-container{
     margin-inline: 1%;
   }
+  /* nav-toggling for navbar-list */
+  .navbar{
+    position: relative;
+  }
+  .navbar-list{
+    position: absolute;
+    top: 49px;
+    left: 0;
+    background-color: #161617;
+    width: 100vw;
+    height: 86vh;
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+  .navbar-list li{
+color:#F5F5F7;
+font-weight: 500;
+font-size: 1.7rem;
+padding-bottom: 10px;
+  }
+  body.no-scroll {
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width:860px){
@@ -269,7 +250,7 @@ margin-top: 9px;
   .colum{
     width: 100%;
   }
-  i{
+  .accordion i{
     display: inline-block !important;
   }
   .special-footer-spacer{
@@ -282,5 +263,67 @@ margin-top: 9px;
   .finisher-footer{
     padding-top: 17px;
     padding-bottom: 9px;
+  }
+  .india{
+    display: none;
+  }
+  .copyright{
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 5px;
+  }
+  .privacy{
+    margin: 0;
+  }
+  .more-ways p::after{
+    content:"India";
+    display: block;
+    padding-top: 1rem;
+  }
+  .copyright{
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* navbar-section */
+  .navbar {
+    padding-inline: 0.5rem;
+    align-items: center;
+    gap: 30px;
+  }
+  /* buy-link section */
+  .buy-link {
+    gap: 0;
+    line-height: 1.5;
+    padding-block: 10px;
+    padding-inline: 1rem;
+  }
+  /* macbooks-section */
+  .macbook-header {
+    padding-top: 33px;
+  }
+  .macbook-header p {
+    font-weight: 400;
+  }
+  /* iphone-section */
+  .iphone-header{
+    padding-top: 37px;
+  }
+  /* features-section */
+  .feature-2{
+    background-position: center;
+    background-size: 270% 95%;
+  }
+  .feature-intelligance .second-para{
+    text-align: center;
+  }
+  /* slide-show section*/
+  .slide-images{
+    aspect-ratio: 16/9;
+    border-radius: 0;
+  }
+  .slide-show-section{
+    padding-inline: 0;
+    padding-block:12px;
   }
 }

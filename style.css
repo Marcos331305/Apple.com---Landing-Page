@@ -38,11 +38,11 @@ body {
   font-size: var(--primary-font-size);
   font-weight: var(--primary-font-weight);
   font-family: var(--primary-font-family);
-  color: #3f3f3f;
+color:#1E1E1E;
   cursor: pointer;
 }
-.nav-toggle {
-  display: none;
+.nav-toggle{
+display: none;
 }
 
 /* header :- buy-link section */
@@ -51,6 +51,8 @@ body {
   gap: 3px;
   padding-block: 12px;
   flex-wrap: wrap;
+  background-color: #1D1D1F;
+  color: #FFFFFF;
 }
 .buy-link p,
 a,
@@ -61,13 +63,13 @@ i {
 }
 .buy-link a,
 i {
-  color: #98bef2;
+  color: #0171E2;
 }
 .buy-link a {
   text-decoration: none;
 }
 .buy-link p {
-  color: #1d1d1f;
+  color: #FFFFFF;
 }
 
 /* macbook-section */
@@ -128,8 +130,8 @@ i {
   color: #ffffff;
 }
 .macbook-section-img{
-  height:37vh;
-  width: 100%;
+width:100%;
+height:37vh;
 }
 .macbooks{
   margin-top: 2rem;
@@ -636,7 +638,7 @@ padding-top: 20px;
 }
 
 /* footer-down-arrow-toggler */
-i{
+.accordion i{
   color: #1E1E1E;
   font-size: 12px;
   position: absolute;
