@@ -1,73 +1,3 @@
-/* for small laptop's - 1024px */
-@media screen and (max-width: 1024px) {
-  /* navbar-section */
-  .navbar-list {
-    display: none;
-  }
-  .nav-toggle {
-    display: block;
-  }
-  .navbar {
-    justify-content: flex-end;
-    padding-inline: 1rem;
-  }
-  .logo {
-    margin-right: auto;
-  }
-  /* features-section */
-  .feature-office h3{
-    font-size: 32px;
-    margin-top: 42px;
-
-  }
-  .feature-aipc h3{
-font-size: 32px;
-margin-top: 42px;
-max-width: 250px;
-  }
-  .feature-intelligance h3{
-font-size: 32px;
-margin-top: 42px;
-  }
-  .feature-ipad h3{
-    font-size: 32px;
-    margin-top: 42px;
-  }
-  .feature-watch img{
-    height: 42px;
-    margin-top: 47px;
-  }
-  .feature-tradein h4{
-    font-size: 32px;
-    margin-top: 46px;
-  }
-  .feature-office p{
-    font-size: 19px;
-    margin-top: 4px;
-
-  }
-  .feature-watch p{
-    font-size: 19px;
-    margin-top: 9px;
-  }
-  .feature-intelligance .first-para{
-font-size:19px;
-margin-top: 4px;
-  }
-  .feature-intelligance .second-para{
-    font-size: 19px;
-    margin-top: 11px;
-  }
-  .feature-ipad p{
-    font-size: 19px;
-    margin-top: 10px;
-  }
-  .feature-tradein p{
-font-size: 19px;
-margin-top: 9px;
-  }
-}
-
 /* for tablet's - 980px */
 @media screen and (max-width: 980px) {
 }
@@ -195,10 +125,23 @@ margin-top: 9px;
     .feature-intelligance .second-para{
       text-align: center;
     }
+    /* slide-show section*/
+    .slide-images{
+      aspect-ratio: 16/9;
+      border-radius: 0;
+    }
+    .slide-show-section{
+      padding-inline: 0;
+      padding-block:12px;
+    }
   }
 
   /* for large laptop's - 1440px */
   @media screen and (max-width: 1440px) {
+    /* footer-container */
+    .footer-container{
+      margin-inline: 11%;
+    }
   }
 
   @media screen and (min-width: 1440px) {
@@ -209,9 +152,135 @@ margin-top: 9px;
   }
 
   /* Specific media queries for specific sizes */
-  @media screen and (min-width:770px) and (max-width:1200px){
-    .iphone-section{
-      background-color: white;
+  @media screen and (min-width:768px) and (max-width:1500px){
+    .iphone{
+      width: 100%;
     }
+    .iphone-section-img{
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width:1250px){
+  .footer-container{
+    margin-inline: 11%;
+  }
+}
+
+/* for small laptop's - 1024px */
+@media screen and (max-width: 1024px) {
+  /* navbar-section */
+  .navbar-list {
+    display: none;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .navbar {
+    justify-content: flex-end;
+    padding-inline: 1rem;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  /* features-section */
+  .feature-office h3{
+    font-size: 32px;
+    margin-top: 42px;
+
+  }
+  .feature-aipc h3{
+font-size: 32px;
+margin-top: 42px;
+max-width: 250px;
+  }
+  .feature-intelligance h3{
+font-size: 32px;
+margin-top: 42px;
+  }
+  .feature-ipad h3{
+    font-size: 32px;
+    margin-top: 42px;
+  }
+  .feature-watch img{
+    height: 42px;
+    margin-top: 47px;
+  }
+  .feature-tradein h4{
+    font-size: 32px;
+    margin-top: 46px;
+  }
+  .feature-office p{
+    font-size: 19px;
+    margin-top: 4px;
+
+  }
+  .feature-watch p{
+    font-size: 19px;
+    margin-top: 9px;
+  }
+  .feature-intelligance .first-para{
+font-size:19px;
+margin-top: 4px;
+  }
+  .feature-intelligance .second-para{
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .feature-ipad p{
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .feature-tradein p{
+font-size: 19px;
+margin-top: 9px;
+  }
+  /* footer-section */
+  .footer-container{
+    margin-inline: 1%;
+  }
+}
+
+@media screen and (max-width:860px){
+  /* footer-section */
+  .footer-container{
+    margin: 0;
+    padding-inline: 1rem;
+  }
+  .colum ul{
+    display: none;
+  }
+  .foot-navlinks-container{
+    flex-direction: column;
+  }
+  .colum h3{
+    font-size: 12px;
+    color: #1E1E1E;
+    font-weight: 350;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .inner-links{
+    margin-top: 0;
+  }
+  .shop-learn{
+    width: 100%;
+  }
+  .colum{
+    width: 100%;
+  }
+  i{
+    display: inline-block !important;
+  }
+  .special-footer-spacer{
+    display: block;
+  }
+  .panel{
+    padding-left: 14px;
+    padding-block:10px;
+  }
+  .finisher-footer{
+    padding-top: 17px;
+    padding-bottom: 9px;
   }
 }
