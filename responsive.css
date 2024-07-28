@@ -12,6 +12,30 @@
     padding-block: 10px;
     padding-inline: 1rem;
   }
+  /* ipadpros-section */
+  .ipadpro-header {
+    padding-top: 37px;
+  }
+  .ipadpro-header h2 {
+    font-size: 32px;
+  }
+  .ipadpro-header p {
+    font-size: 19px;
+    margin-top: 4px;
+  }
+  .ipadpro-header-btns {
+    margin-top: 17px;
+  }
+  .ipad-pro-btns {
+    padding: 7px 11px;
+    font-size: 14px;
+  }
+  .ipadpro-section {
+    height: 60vh;
+  }
+  .ipadpros {
+    margin-top: 1rem;
+  }
   /* macbooks-section */
   .macbooks {
     display: flex;
@@ -203,11 +227,11 @@ margin-top: 9px;
   }
   .navbar-list{
     position: absolute;
-    top: 49px;
+    top:0;
     left: 0;
     background-color: #161617;
     width: 100vw;
-    height: 86vh;
+    height: 100vh;
     padding-top: 40px;
     padding-left: 30px;
   }
@@ -216,9 +240,6 @@ color:#F5F5F7;
 font-weight: 500;
 font-size: 1.7rem;
 padding-bottom: 10px;
-  }
-  body.no-scroll {
-    overflow: hidden;
   }
 }
 
@@ -250,8 +271,12 @@ padding-bottom: 10px;
   .colum{
     width: 100%;
   }
+.colum h3{
+  font-weight: 400;
+}
   .accordion i{
     display: inline-block !important;
+    font-weight:600;
   }
   .special-footer-spacer{
     display: block;
@@ -277,11 +302,15 @@ padding-bottom: 10px;
   }
   .more-ways p::after{
     content:"India";
+    font-weight:500;
     display: block;
     padding-top: 1rem;
   }
   .copyright{
     padding-top: 0;
+  }
+  .colum ul li a{
+    font-weight:400;
   }
 }
 @media screen and (max-width: 479px) {
@@ -298,6 +327,10 @@ padding-bottom: 10px;
     padding-block: 10px;
     padding-inline: 1rem;
   }
+  /* ipadpros-section */
+ .ipadpros{
+  width: 95vw;
+ }
   /* macbooks-section */
   .macbook-header {
     padding-top: 33px;

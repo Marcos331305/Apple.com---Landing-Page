@@ -20,20 +20,20 @@ for (i = 0; i < acc.length; i++) {
 // nav-bar toggle handling
 var toggle=document.querySelector('.nav-toggle');
 var navList=document.querySelector('.navbar-list');
+var closeToggle=document.querySelector('.close-toggle-btn');
 toggle.addEventListener("click",()=>{
   if(navList.style.display=="none"){
     navList.style.display="block";
+    closeToggle.style.display="block"
   }
   else{
     navList.style.display="none";
+    closeToggle.style.display="none";
   }
 })
+// close-toggler handling
+closeToggle.addEventListener("click",()=>{
+  navList.style.display="none";
+  closeToggle.style.display="none";
+})
 // scroll locking when nav-toggle-menu is opened.
-document.addEventListener('DOMContentLoaded', function() {
-  var body = document.body;
-  
-  toggle.addEventListener('click', function() {
-    navList.classList.toggle('open');
-    body.classList.toggle('no-scroll');
-  });
-});
